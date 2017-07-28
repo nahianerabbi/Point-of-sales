@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Newtours Site" duration-ms="51151" started-at="2017-07-28T18:25:50Z" finished-at="2017-07-28T18:26:41Z">
+    <groups>
+    </groups>
+    <test name="Complete NewTours Site Test" duration-ms="51151" started-at="2017-07-28T18:25:50Z" finished-at="2017-07-28T18:26:41Z">
+      <class name="com.ConstantMD.PosTest.Test.CustomerTest">
+        <test-method status="PASS" signature="initiateLogin()[pri:0, instance:com.ConstantMD.PosTest.Test.CustomerTest@4af044]" name="initiateLogin" duration-ms="44542" started-at="2017-07-29T00:25:50Z" finished-at="2017-07-29T00:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateLogin -->
+        <test-method status="PASS" signature="checkCustomerPageTitle()[pri:0, instance:com.ConstantMD.PosTest.Test.CustomerTest@4af044]" name="checkCustomerPageTitle" duration-ms="3093" started-at="2017-07-29T00:26:34Z" finished-at="2017-07-29T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCustomerPageTitle -->
+        <test-method status="PASS" signature="addNewCustomertest()[pri:0, instance:com.ConstantMD.PosTest.Test.CustomerTest@4af044]" name="addNewCustomertest" duration-ms="3451" started-at="2017-07-29T00:26:37Z" finished-at="2017-07-29T00:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomertest -->
+      </class> <!-- com.ConstantMD.PosTest.Test.CustomerTest -->
+    </test> <!-- Complete NewTours Site Test -->
+  </suite> <!-- Test Newtours Site -->
+</testng-results>
