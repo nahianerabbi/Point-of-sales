@@ -41,6 +41,10 @@ public class Customer{
 	public static final String CUSTOM_LIST_SUBMIT_BTN=".//*[@id='btnSubmit']";
 	public static final String CUSTOM_LIST_VIEW_BTN=".//*[@id='ctl00_ContentPlaceHolder1_rptList_ctl04_hlView']";
 	
+	public static final String CUSTOMER_DETAILS_BTN=".//*[@id='ctl00_ContentPlaceHolder1_rptPatient_ctl01_hlPatientId']";
+	
+	public static final String SEARCH_BOX=".//*[@id='ctl00_ContentPlaceHolder1_txtQuickSearchQuery']";
+	
 	
 }
 

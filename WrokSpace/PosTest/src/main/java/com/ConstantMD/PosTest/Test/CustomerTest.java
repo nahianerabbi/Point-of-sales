@@ -73,9 +73,19 @@ public class CustomerTest {
 	public void manageCustomerListTest()throws InterruptedException{
 		
 		driver.findElement(By.xpath(XpathUtils.Customer.MANAGE_CUSTOMER_LIST_BTN)).click();
-		
-		
-		
+		Thread.sleep(1000);
+		driver.findElement(By.xpath(XpathUtils.Customer.MANAGE_CUSTOMER_LIST_BTN)).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath(XpathUtils.Customer.CREATE_CUSTOM_LIST_BTN)).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath(XpathUtils.Customer.LIST_TITLE)).sendKeys("test");
+		driver.findElement(By.xpath(XpathUtils.Customer.CUSTOM_LIST_SUBMIT_BTN)).click();
+		driver.findElement(By.xpath(XpathUtils.Customer.CUSTOMER_BTN)).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath(XpathUtils.Customer.CUSTOMER_DETAILS_BTN)).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath(XpathUtils.Customer.CUSTOMER_BTN)).click();
+				
 		System.out.println("manage customer list test varified!!");
 	}
 	
@@ -84,12 +94,13 @@ public class CustomerTest {
 		
 		
 		System.out.println("Edit customer test varified");
-	}
+	}*/
 	
 	@Test(priority=6)
 	public void searchCustomerTest()throws InterruptedException{
+		driver.findElement(By.xpath(XpathUtils.Customer.SEARCH_BOX)).sendKeys("");      
 		
 		
-		System.out.println("Search customer test varified!!");
-	}*/
+	System.out.println("Search customer test varified!!");
+	}
 }
