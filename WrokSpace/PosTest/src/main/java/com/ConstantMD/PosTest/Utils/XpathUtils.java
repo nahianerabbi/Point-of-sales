@@ -5,7 +5,7 @@ public class XpathUtils {
 public static class Login {
 		
 		public static final String Login_USER_NAME = ".//*[@id='ctl00_ContentPlaceHolder1_LoginBoxUserControl_txtUserName']";
-		public static final String login_PASSWORD = ".//*[@id='ctl00_ContentPlaceHolder1_LoginBoxUserControl_txtPassword']";
+		public static final String Login_PASSWORD = ".//*[@id='ctl00_ContentPlaceHolder1_LoginBoxUserControl_txtPassword']";
 		public static final String BTN_LOGIN = ".//*[@id='ctl00_ContentPlaceHolder1_LoginBoxUserControl_btnSubmit']";
 		public static final String SEQURITY_QUESTION= ".//*[@id='ctl00_ContentPlaceHolder1_txtAnswer1']";
 		public static final String SEQURITY_SUBMIT_BTN= ".//*[@id='ctl00_ContentPlaceHolder1_btnSubmit']";
@@ -44,6 +44,39 @@ public class Customer{
 	public static final String CUSTOMER_DETAILS_BTN=".//*[@id='ctl00_ContentPlaceHolder1_rptPatient_ctl01_hlPatientId']";
 	
 	public static final String SEARCH_BOX=".//*[@id='ctl00_ContentPlaceHolder1_txtQuickSearchQuery']";
+	
+	
+}
+
+
+public class ManageSupplier{
+	
+	public static final String ADD_SUPPLIER_BTN=".//*[@id='hlAdd']";
+	public static final String ADVANCE_SEARCH_BTN=".//*[@id='aspnetForm']/div[3]/div[4]/div[1]/a[2]";
+	public static final String SUPPLIER_EDIT_BTN=".//*[@id='ctl00_ContentPlaceHolder1_rptVendor_ctl01_hlEdit']/img";
+	public static final String SUPPLIER_PAYMENT_BTN=".//*[@id='ctl00_ContentPlaceHolder1_rptVendor_ctl01_hlSupplierPayment']/span";
+	public static final String SUPPLIER_PAYMENT_DETAILS_BTN=".//*[@id='ctl00_ContentPlaceHolder1_rptVendor_ctl01_hlSupplierPaymentDetails']/span";
+	public static final String ADD_SUPPLIER_SUPPLIER_CATEGORY=".//*[@id='ctl00_ContentPlaceHolder1_ddlSupplierCategory']";
+	public static final String ADD_SUPPLIER_SUPPLIER_NAME=".//*[@id='ctl00_ContentPlaceHolder1_txtVendorName']";
+	public static final String ADD_SUPPLIER_ADDRESS_LINE1=".//*[@id='ctl00_ContentPlaceHolder1_txtAddress1']";
+	public static final String ADD_SUPPLIER_ADDRESS_LINE2=".//*[@id='ctl00_ContentPlaceHolder1_txtAddress2']";
+	public static final String ADD_SUPPLIER_CELLPHONE=".//*[@id='ctl00_ContentPlaceHolder1_txtCellPhone']";
+	public static final String ADD_SUPPLIER_ADD_NEW_CONTACT_BTN=".//*[@id='aspnetForm']/div[3]/div[4]/div[1]/div/div/div[2]/div/div[7]/div/a";
+	public static final String ADD_SUPPLIER_SUBMIT_BTN=".//*[@id='ctl00_ContentPlaceHolder1_btnSubmit']";
+	public static final String ADVANCE_SEARCH_SUPPLIER_NO=".//*[@id='ctl00_ContentPlaceHolder1_txtShipmentCode']";
+	public static final String ADVANCE_SEARCH_SUPPLIER_CATEGORY=".//*[@id='ctl00_ContentPlaceHolder1_ddlSupplierCategory']";
+	public static final String ADVANCE_SEARCH_SUPPLIER_NAME=".//*[@id='ctl00_ContentPlaceHolder1_txtSupplierName']";
+	public static final String ADVANCE_SEARCH_SUBMIT_BTN=".//*[@id='ctl00_ContentPlaceHolder1_btnSearch']";
+	public static final String ADD_SUPPLIER_CANCEL_BTN=".//*[@id='ctl00_ContentPlaceHolder1_btnCancel']";
+	public static final String SUPPLIER_PAYMENT_SUPPLIER_NAME=".//*[@id='ctl00_ContentPlaceHolder1_txtSupplier']";
+	public static final String SUPPLIER_PAYMENT_PAYMENT_TYPE=".//*[@id='ctl00_ContentPlaceHolder1_txtSupplier']";
+	public static final String SUPPLIER_PAYMENT_RECEIVE_ID=".//*[@id='ctl00_ContentPlaceHolder1_txtReceiveId']";
+	public static final String SUPPLIER_PAYMENT_SUBMIT_BTN1=".//*[@id='aspnetForm']/div[3]/div[4]/div/div/div/div/div[2]/div/div[4]/div[2]/button";
+	public static final String SUPPLIER_PAYMENT_PAYMENT=".//*[@id='txtPayment']";
+
+	
+	
+	
 	
 	
 }

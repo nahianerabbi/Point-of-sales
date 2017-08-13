@@ -3,12 +3,11 @@
 <suite name="Failed suite [Test Newtours Site]">
   <test name="Complete NewTours Site Test(failed)">
     <classes>
-      <class name="com.ConstantMD.PosTest.Test.CustomerTest">
+      <class name="com.ConstantMD.PosTest.Test.LoginTest">
         <methods>
-          <include name="addNewCustomertest"/>
-          <include name="checkCustomerPageTitle"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.ConstantMD.PosTest.Test.CustomerTest -->
+      </class> <!-- com.ConstantMD.PosTest.Test.LoginTest -->
     </classes>
   </test> <!-- Complete NewTours Site Test(failed) -->
 </suite> <!-- Failed suite [Test Newtours Site] -->

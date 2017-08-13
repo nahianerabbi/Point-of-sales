@@ -10,11 +10,10 @@ public class DriverExecution {
 	
 static {
 		
-		System.setProperty("webdriver.gecko.driver", "E:/selenium/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "D:/local drive E/selenium/geckodriver.exe");
 	}
 	
 	public static WebDriver driver = new FirefoxDriver();
-	
 	
 	@Test
 	public void testexecution(){
