@@ -5,10 +5,10 @@
 
 	<test name="Complete NewTours Site Test">
 		<classes>
-
-			<class name="com.ConstantMD.PosTest.Test.LoginTest">
-			</class>
-
+			<class name="com.ConstantMD.PosTest.Test.LoginTest"/>
+			<class name="com.ConstantMD.PosTest.Test.CustomerTest"/>
+			
+			
 		</classes>
 	</test>
-</suite>	
+</suite>

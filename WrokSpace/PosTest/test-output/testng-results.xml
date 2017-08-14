@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Newtours Site" duration-ms="47832" started-at="2017-08-13T19:39:47Z" finished-at="2017-08-13T19:40:35Z">
+  <suite name="Test Newtours Site" duration-ms="41407" started-at="2017-08-14T11:19:21Z" finished-at="2017-08-14T11:20:02Z">
     <groups>
     </groups>
-    <test name="Complete NewTours Site Test" duration-ms="47832" started-at="2017-08-13T19:39:47Z" finished-at="2017-08-13T19:40:35Z">
+    <test name="Complete NewTours Site Test" duration-ms="41407" started-at="2017-08-14T11:19:21Z" finished-at="2017-08-14T11:20:02Z">
+      <class name="com.ConstantMD.PosTest.Test.CustomerTest">
+        <test-method status="FAIL" signature="checkCustomerPageTitle()[pri:0, instance:com.ConstantMD.PosTest.Test.CustomerTest@1ee9faa]" name="checkCustomerPageTitle" duration-ms="7" started-at="2017-08-14T17:20:02Z" finished-at="2017-08-14T17:20:02Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.ConstantMD.PosTest.Test.CustomerTest.checkCustomerPageTitle(CustomerTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCustomerPageTitle -->
+        <test-method status="PASS" signature="addnewcustomerTest(java.util.List)[pri:0, instance:com.ConstantMD.PosTest.Test.CustomerTest@1ee9faa]" name="addnewcustomerTest" duration-ms="0" started-at="2017-08-14T17:20:02Z" data-provider="customerdataprovider" finished-at="2017-08-14T17:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewcustomerTest -->
+      </class> <!-- com.ConstantMD.PosTest.Test.CustomerTest -->
       <class name="com.ConstantMD.PosTest.Test.LoginTest">
-        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.ConstantMD.PosTest.Test.LoginTest@78c730]" name="checkLoginPageTitle" duration-ms="34933" started-at="2017-08-14T01:39:47Z" finished-at="2017-08-14T01:40:22Z">
+        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.ConstantMD.PosTest.Test.LoginTest@101b7af]" name="checkLoginPageTitle" duration-ms="31042" started-at="2017-08-14T17:19:21Z" finished-at="2017-08-14T17:19:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginPageTitle -->
-        <test-method status="PASS" signature="loginTest(java.util.List)[pri:0, instance:com.ConstantMD.PosTest.Test.LoginTest@78c730]" name="loginTest" duration-ms="9250" started-at="2017-08-14T01:40:25Z" data-provider="logindataprovider" finished-at="2017-08-14T01:40:35Z">
+        <test-method status="PASS" signature="loginTest(java.util.List)[pri:0, instance:com.ConstantMD.PosTest.Test.LoginTest@101b7af]" name="loginTest" duration-ms="7268" started-at="2017-08-14T17:19:55Z" data-provider="logindataprovider" finished-at="2017-08-14T17:20:02Z">
           <params>
             <param index="0">
               <value>

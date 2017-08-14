@@ -43,8 +43,13 @@ public class Customer{
 	
 	public static final String CUSTOMER_DETAILS_BTN=".//*[@id='ctl00_ContentPlaceHolder1_rptPatient_ctl01_hlPatientId']";
 	
-	public static final String SEARCH_BOX=".//*[@id='ctl00_ContentPlaceHolder1_txtQuickSearchQuery']";
-	
+	public static final String CUSTOMER_QUICK_SEARCH_BOX=".//*[@id='ctl00_ContentPlaceHolder1_txtQuickSearchQuery']";
+	public static final String CUSTOMER_QUICK_SEARCH_BTN=".//*[@id='ctl00_ContentPlaceHolder1_btnQuickSearch']";
+	public static final String CUSTOMER_ADVANCE_SEARCH_BTN=".//*[@id='aspnetForm']/div[3]/div[4]/div[2]/div[1]/div/div[1]/div[1]/div/a[2]";
+	public static final String ADV_SEARCH_FIRSTNAME=".//*[@id='ctl00_ContentPlaceHolder1_txtFirstName']";
+	public static final String ADV_SEARCH_LASTNAME=".//*[@id='ctl00_ContentPlaceHolder1_txtLastName']";
+	public static final String ADV_SEARCH_DATE=".//*[@id='ctl00_ContentPlaceHolder1_ucDateOption_ddlDateOption']";
+	public static final String ADV_SEARCH_SUBMIT_BTN=".//*[@id='ctl00_ContentPlaceHolder1_btnSearch']";
 	
 }
 
